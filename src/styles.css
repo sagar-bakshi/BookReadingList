@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #553055;
+}
+.App{
+  background: #4c2a4c;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 700px;
+  color: #eee;
+}
+.navbar{
+  padding: 10px 20px;
+  text-align: center;
+  background: #6d3d6d
+}
+.navbar h1{
+  margin: 10px 0;
+}
+
+.book-list{
+   margin: 20px auto;
+   text-align: center;
+}
+
+.book-list ul{
+  list-style: none;
+  padding: 0;
+}
+
+.book-list ul li{
+  background-color: #6d3d6d;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 80%;
+}
+
+.book-list ul li :not(:last-child):hover{
+  opacity: 0.7;
+  text-decoration: line-through;
+}
+
+.book-title{
+  color: #eee;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.book-author{
+font-size: 16px;
+color: #ddd;
+}
+
+.empty{
+  margin:2px auto;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+}
