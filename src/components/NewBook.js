@@ -1,7 +1,9 @@
 import React, { useContext, useState } from 'react'
 import { BookContext } from '../context/BookContext';
 
+
 export default function NewBook() {
+
       const [title, setTitle]=useState('');
       const [author, setAuthor] = useState('');
       const {dispatch} = useContext(BookContext);
